@@ -4,9 +4,6 @@ Tired of copy-pasting files one by one into ChatGPT or Claude? This tool solves 
 
 `ai-pack` is a simple command-line utility that intelligently bundles your entire project's code into a single, clean text file. Get your entire codebase into any AI's context window with a single command.
 
-![Demo GIF showing the ai-pack tool in action](https'://i.imgur.com/your-demo-image.gif') 
-<!-- **Action Item:** Create a short GIF of the tool running and replace the link above! -->
-
 ## Features
 
 -   **One Command, Full Context**: Run `ai-pack` in any project to get started instantly.
@@ -21,7 +18,7 @@ You need [Node.js](https://nodejs.org/) installed on your system.
 
 1.  **Clone this repository:**
     ```bash
-    git clone [https://github.com/your-username/ai-context-packer.git](https://github.com/subhadeep322/folder-tool.git)
+    git clone https://github.com/subhadeep322/folder-tool.git
     ```
 
 2.  **Navigate into the folder:**
@@ -104,4 +101,5 @@ ai-pack unpack project-context.json -o ./my-restored-code
 
 
 Found a bug or have a feature idea? Feel free to open an issue or submit a pull request!
+
 
