@@ -1,0 +1,30 @@
+{
+  "name": "ai-context-packer",
+  "version": "1.0.0",
+  "description": "A CLI tool to bundle project files for AI context, with gitignore support, chunking, and more.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "ai-pack": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "context",
+    "cli",
+    "llm",
+    "gpt",
+    "packer"
+  ],
+  "author": "coderbong",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clipboardy": "^3.0.0",
+    "ignore": "^5.3.0",
+    "ora": "^7.0.1",
+    "yargs": "^17.7.2"
+  }
+}
